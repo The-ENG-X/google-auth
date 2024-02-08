@@ -3,7 +3,7 @@ import GoogleSignInButton from './components/GoogleSignInButton';
 import React from 'react';
 import Home from "./components/Home";
 import About from "./components/About"
-import Loging from "./components/Login"
+import Login from "./components/Login"
 import MeinBereich from './components/MeinBereich';
 import { Routes, Route } from 'react-router-dom';
 
@@ -14,7 +14,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/loging" element={<Loging />} />
+        <Route path="/login" element={<Login />} />
         <Route path="/myspace" element={<MeinBereich />} />
         {/* <GoogleSignInButton /> */}
       </Routes>
